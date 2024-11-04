@@ -1,0 +1,188 @@
+/* Reseteo de todo los valores dentro del body a 0, para evitar problemas de lineas blancas y de cajas o selectores que vengan con alguno de estos elementos por defecto */
+
+ * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+nav{
+    background-color: #000f00;
+    padding: 20px 0 20px 100px;
+
+    
+}
+
+
+
+nav a{
+    color: #ffffff ; 
+    text-decoration: none;
+  
+    
+
+}
+.oscuro ul li{
+    margin-right: 45px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+} 
+
+.icono {
+    width: 2rem;
+
+    
+}
+.icono  svg {
+    fill: #ffffff;    
+}
+header{
+    background-image: url(../IMG/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* propiedades del texto */
+    /* Sombra al texto(usado generalmente para que el texto destaque sobre una imagen) */
+    text-shadow: 0px 3px 6px #000000;
+    text-align: right;
+    color:#ffffff;
+    /* Asignando el espacio  de las cajas  */
+    padding: 100px 200px 100px 500px;
+}
+
+header h1{
+font-size: 60px;
+
+}
+
+header h3{
+    font-size: 40px;
+    font-weight: 300;
+    }
+/* Para Apuntar a las clases se empieza con un "." y "#" para un id, como se ve abajo */
+.donde{
+    text-align: center;
+    padding: 100px;
+
+}
+.donde img {
+    width: 25%;
+    margin-bottom: 30px;
+    border-radius: 2%;
+}
+
+.donde h2 {
+    font-size: 37.5px;
+    margin-bottom: 20px;
+}
+
+.donde p {
+    font-size: 19px;
+    padding: 0px 585px;
+}
+
+#speaker1{
+    background-color: #A4452c;
+    color: #ffffff;
+    padding: 100px;
+
+}
+/* Ocupamos un div en el html para quitar el espacio maximo usado por el texto y las etiquetas de bloque, y asi ponerlas a un lado de la imagen */
+#speaker1 .wrapper{
+    width: 800px;
+    margin: auto;
+}
+
+
+.wrapper img{
+    width: 30%;
+    border-radius: 2%;
+}
+
+.wrapper .texto{
+    width: 65%;
+    margin-left: 4%;
+}
+ .wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+ .texto h2 {
+    font-size: 33px;
+    padding: 5px;
+ }
+ .texto h4 {
+    font-size: 25px;
+    font-weight: 400;
+ }
+
+ .texto span{
+    font-size: 14px;
+    font-weight:400;
+    display: block;
+    margin-bottom: 12px;
+    
+ }
+
+ .texto p {
+    font-size: 18px;
+    font-weight: 400;
+ }
+/* al poner solo 2 valores en el padding hace referencia a arriba y abajo */
+.eventos {
+    text-align: center;
+    padding: 100px 0;
+}
+/* El border es para agregar una esquina redondeada a la imagen */
+.eventos img {
+    border-radius: 2%;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.eventos h2{
+    font-size: 32.5px;
+    margin-bottom: 50px;
+
+}
+.eventos h3 {
+    font-size: 28px;
+}
+
+.eventos div{
+    display: inline-block;
+}
+
+ footer{
+    background-color: #000f08;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0 20px 0;
+    
+    
+ }
+ footer i {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-decoration: none;
+  
+ }
+/*  El color inherit es para quitarle el color azul de la etiqueta a y el text decoration
+ es para quitarle la linea que va debajo */
+ footer a {
+    color: inherit;
+    text-decoration: none;
+ }
+
+
+ footer h2{
+    
+    font-size: 14px;
+    font-weight: 200;  
+ }
